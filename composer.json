@@ -1,0 +1,41 @@
+{
+    "name": "pear/config",
+    "description": "PEAR Config package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugeny Kudryavtsev",
+            "email": "info@eugeny.su"
+        },
+        {
+            "name": "Bertrand Mansion",
+            "email": "bmansion@mamasam.com"
+        },
+        {
+            "name": "Ryan King",
+            "email": "ryansking@php.net"
+        },
+        {
+            "name": "Adam Ashley",
+            "email": "aashley@php.net"
+        },
+        {
+            "name": "Adam Harvey",
+            "email": "aharvey@php.net"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "PEAR\\Config\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PEAR\\Config\\Tests\\": "test/"
+        }
+    }
+}
